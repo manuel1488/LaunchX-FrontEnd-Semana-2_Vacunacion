@@ -1,0 +1,404 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;    
+}
+
+main{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5px;
+}
+
+footer{
+    padding-top: 60px;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;            
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0px;
+    width: 100%;
+}
+
+footer ul li{
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.menu{    
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu>div:nth-child(1){
+    align-self: auto;
+    width: 200px;
+}
+
+.menu>div:nth-child(2) {
+    align-self: auto;
+    display: flex;
+    width: 550px;
+    align-items: center;
+}
+
+.menu>div:nth-child(2)>div:nth-child(1) {
+    width: 20%;    
+    text-align: center;
+    color: #6d7b93;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.menu>div:nth-child(2)>div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+    color: #6d7b93;
+    font-weight: bolder;
+    height: 100%;
+    font-size: larger;
+    background-color: #e6f4fc;
+}
+
+.menu>div:nth-child(2)>div:nth-child(2) div {
+    width: 25%;
+    height: 25px;    
+    align-self: center;
+}
+
+.menu>div>h2{
+    color: #3050cd;
+    font-weight: bolder;
+}
+
+.secction-1{
+    display: flex;
+    height: 500px;
+}
+
+.secction-1>div h1{
+    color: #1f3e72;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+.secction-1>div p{
+    color: #6d7b93;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.secction-1>div{
+    width: 50%;
+}
+
+.secction-1 div:nth-child(2){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.add {
+    padding-top: 50px;
+    padding-left: 50px;
+    color: #2d4a7b;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.clock{
+    padding-top: 50px;
+    padding-left: 50px;
+    color: #1f3e72;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.section-2{
+    display: flex;
+}
+
+.section-2>div{
+    padding-top: 10px;
+    width: 50%;
+}
+
+.section-2>div:nth-child(1){
+    padding-top: 80px;
+}
+
+.section-2>div:nth-child(2){
+    padding-top: 80px;
+    text-align: -webkit-right;
+}
+
+.section-2>div:nth-child(1) h2{
+    color: #1f3e72;
+    font-size: 35px;
+    font-weight: bold;
+    font-weight: bolder;
+}
+
+
+.section-2 div:nth-child(1) p{
+    color: #6d7b93;
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: bolder;
+}
+
+.section-3{
+    display: flex;
+    padding-top: 25px;
+}
+
+.section-3>div{
+    width: 25%;;
+    border: 2px solid #fafaff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 15px 15px 15px;
+}
+
+.section-3 div h5{
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-3>div p{
+    color: #a4acbb;
+    font-weight: bold;
+}
+
+.section-4{
+    display: flex;
+    padding-top: 50px;    
+    
+}
+
+.section-4 ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.section-4 ul li{
+    border: 1px solid #a4acbb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #1f3e72;
+    font-size: 23px;
+    font-weight: bold;    
+}
+
+.section-4>div{
+    padding: 20px;
+    width: 50%;    
+}
+
+.section-4>div:nth-child(1) img{
+    width: 100%;
+}
+
+.section-4>div:nth-child(2) h1{
+    color: #1f3e72;
+    font-weight: bolder;
+}
+
+.section-4>div:nth-child(2) h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-4>div:nth-child(2) p{
+    color: #919cae;
+    font-size: 20px;
+}
+
+.section-5{
+    display: flex;
+    height: auto;
+}
+
+.section-5>div{
+    width: 50%;
+
+}
+
+.section-5>div:nth-child(2) img{
+    width: 100%;
+}
+
+.section-5 h1{
+    color: #1f3e72;
+    font-weight: bolder;
+}
+
+.section-5 p{
+    color: #b6bdc9;
+    font-weight: bold;    
+}
+
+.section-5>div:nth-child(1)>div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_card{
+    width: 42%;
+    height: 200px;
+    border: 2px solid #b6bdc9;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.contact_card>div{
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact_card button{
+    width: 150px;
+    height: 50px;
+    background-color: #f1f5ff;
+    color: #3959d7;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.contact_card>div:nth-child(1){
+    display: flex;
+}
+
+.contact_card>div:nth-child(1)>div:nth-child(1){
+    align-self: center;
+}
+
+.contact_card>div:nth-child(1)>div:nth-child(2){
+    text-align: left;
+    padding-left: 10px;
+}
+
+.contact_card>div:nth-child(1) div span{
+    color: #8894a7;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.marcas_vacunas{
+    display: flex;
+    object-fit: inherit;
+    width: 100%;
+}
+
+.marcas_vacunas div{
+    width: 25%;
+    height: 30px;
+}
+
+.marcas_vacunas div img{
+    width: 90%;
+    max-height: 30px;
+}
+
+footer>div:nth-child(1){
+    display: flex;    
+}
+
+footer>div:nth-child(1) h2{
+    color: #3353d1;
+    font-weight: bold;
+}
+
+footer>div{
+    background-color: #eef3ff;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;    
+    color: #7d8aa0;
+}
+
+footer>div:nth-child(2){
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+footer>div:nth-child(1)>div:nth-child(1){
+    width: 40%;    
+}
+
+footer>div:nth-child(1)>div:nth-child(n+2){
+    width: 20%;
+}
+
+footer>div:nth-child(1)>div:nth-child(n+2) h5{    
+    color: #1f3e72;
+}
+
+
+.fondo_menu{
+    background-color: #e6f4fc;
+    width: 40%;
+    position: absolute;
+    height: 100px;
+    z-index: -1;    
+    right: 15%;
+}
+
+.flecha_abajo{    
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #f4f6fb;
+}
+
+.flecha_izquierda{
+    padding-top: 0px;
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid transparent;
+    border-right: 100px solid #f4f6fb;
+    border-bottom: 50px solid transparent;
+}
+
+.flecha_derecha{
+    padding-top: 0px;
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #f4f6fb;
+    border-bottom: 50px solid transparent;
+}
+
+.linea {
+    border-top: 2px solid #f4f6fb;
+    height: 2px;
+    width: 100%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    position: relative;
+    top: -71px
+  }
+
+ 
